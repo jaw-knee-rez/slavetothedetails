@@ -5,27 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>{% include "css/main.css" %}</style>
     <title>{{ title }}</title>
+    <meta name="description" content="{{ meta_description }}">
+    <link rel="icon" type="image/png" href="https://slavetothedetails.com/images/favicon.png">
   </head>
   <body class="{{ bodyClass }}" >
     <div class="container">
-      <header>
-        <ul class="nav">
-          <li>
-            <a href="/">home<small>where the heart is</small></a>
-          </li>
-          <li>
-            <a href="/about">about<small>all about this</small></a>
-          </li>
-        </ul>
-        <h1>{{ title }}</h1>
-        {%- if subtitle %}<p class="subtitle">{{ subtitle }}</p>{% endif %}
-      </header>
+      {% include "header.njk" %}
       {{ content | safe }}
       {% include "footer.njk" %}
       <script>{% include "js/scripts.js" %}</script>
     </div>
   </body>
 </html>
-
-
-
