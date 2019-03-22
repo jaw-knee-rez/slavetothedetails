@@ -5,7 +5,7 @@ title: Current Process v1.0
 <div class="content">
 
 # 🐛 Process, a test in patience.
-<time class="date" datetime="{{ date }}">{{ date | dateDisplay }}</time>
+<time class="date" datetime="{{ date }}">{{ page.date | dateDisplay("LLL d, y") }}</time>
 <br/>
 
 ## Forward
@@ -39,7 +39,7 @@ Once you're in one of the three stages, there are a multitude of exercises a tea
 
 </div>
 
-![alt text](/images/dt_process.png "Mystery, Heuristic, Algorithm")
+![alt text](/images/dt_process2.png "Mystery, Heuristic, Algorithm")
 
 <div class="content">
 

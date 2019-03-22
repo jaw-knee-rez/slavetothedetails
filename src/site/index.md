@@ -21,7 +21,7 @@ title_meta: UX strategy & product design
 
 <ul>
   {%- for post in collections.post -%}
-    <li class="card"><a href="{{ post.url }}">{{ post.data.title }}<br/><time class="date" datetime="{{ date }}">{{ date | dateDisplay }}</time></a></li>
+    <li class="card"><a href="{{ post.url }}">{{ post.data.title }}<br/><time class="date" datetime="{{ date }}">{{ page.date | dateDisplay("LLL d, y") }}</time></a></li>
   {%- endfor -%}
 </ul>
 
