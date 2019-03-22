@@ -8,12 +8,19 @@
     <meta name="description" content="{{ meta_description }}">
     <link rel="icon" type="image/png" href="https://slavetothedetails.com/images/favicon.png">
   </head>
+  
   <body class="{{ bodyClass }}" >
+
     <div class="container">
+
       {% include "header.njk" %}
+
       {{ content | safe }}
+
       {% include "footer.njk" %}
-      <script>{% include "js/scripts.js" %}</script>
+
     </div>
+
+    <script>{% include "js/scripts.js" %}</script>
   </body>
 </html>

@@ -5,5 +5,20 @@ $bp-wide: "(min-width: 1200px)";
 
 // Colours
 $page-color: #f6f6f6;
-$text-color: #333;
+$text-dark-color: #333;
+$text-mid-color: #818181;
+$text-light-color: #f6f6f6;
 $accent-color: #213b5c;
+
+// Font-size
+@font-face {
+  font-family: 'heading';
+  src: url('/fonts/Gotham-Black.otf'); /* IE9 Compat Modes */
+  src: url('/fonts/Gotham-Black.otf')  format('truetype'); /* Safari, Android, iOS */
+}
+
+@font-face {
+  font-family: 'body';
+  src: url('fonts/ProximaNova-Reg.otf'); /* IE9 Compat Modes */
+  src: url('/fonts/ProximaNova-Reg.otf')  format('opentype'); /* Safari, Android, iOS */
+}

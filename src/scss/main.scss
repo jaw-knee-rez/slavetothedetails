@@ -8,155 +8,145 @@
 }
 
 ::-moz-selection {
-  background-color: $text-color;
+  background-color: $text-dark-color;
   color: $page-color;
 }
 ::selection {
-  background-color: $text-color;
+  background-color: $text-dark-color;
   color: $page-color;
 }
 
-html {
-  background-color: $accent-color;
-}
-
 body {
-  text-align: center;
   background-color: $page-color;
-  color: mix($text-color, $page-color, 60%);
-  font-family: sans-serif;
-  font-weight: 300;
-  font-size: 16px;
-  line-height: 1.8;
-  min-height: 100vh;
-  @include bp(mid) {
-    font-size: 18px;
-  }
+  color: mix($text-dark-color, $page-color, 60%);
+  font-family: 'body', sans-serif;
+  font-size: 1em;
+  line-height: 1.5;
+  height: 100vh;
 }
 
+img {
+  width: 100%;
+}
 
 .container {
   margin-left: auto;
   margin-right: auto;
-  width: 90%;
+  max-width: 85%;
   text-align: left;
-  @include bp(mid) {
-    width: 600px;
-  }
-  @include bp(wide) {
-    width: 700px;
-  }
 }
 
-ul, ol {
-  padding-left: 1em;
+.content {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 840px;
+  text-align: left;
 }
 
-a:link,
-a:visited {
-  color: $text-color;
-  text-decoration: none;
-  border-bottom: solid 1px mix($text-color, $page-color, 10%);
-}
-a:hover,
-a:focus {
-  color: $text-color;
-  border-bottom: solid 1px $text-color;
+.v-content {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%;
+	.v {
+	    position: absolute;
+	    top: 0;
+	    left: 0;
+	    width: 100%;
+	    height: 100%;
+	}
 }
 
 header {
-  padding-top: 3em;
-
-  li {
-    display: inline;
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  h3 {
+    position: fixed;
+    bottom: 24px;
+    left: 32px;
+    z-index: 2;
+    font-size: 1.4rem;
+    transform-origin: left center;
+    transform: rotate(-90deg);
   }
-
-  a:link,
-  a:visited {
-    display: inline-block;
-    border-top: solid 1px mix($text-color,$page-color, 60%);
-    border-bottom-style: none;
-    padding-top: 0.8em;
-    padding-bottom: 2em;
-    margin-left: 0;
-    margin-right: 0.7em;
-    width: 8em;
-    text-align: left;
-    color: mix($text-color,$page-color, 80%);
-    text-decoration: none;
+  span {
+    color: $text-mid-color;
+    font-size: 70%;
+    svg {
+      vertical-align: middle;
+    }
   }
-  a:hover,
-  a:focus {
-      color: $text-color;
-      border-top: solid 1px $accent-color;
-      border-bottom-style: none;
-  }
-
-  small {
-    display: block;
-    font-size: 0.7em;
-    color: mix($text-color,$page-color, 60%);
-  }
-}
-
-
-code {
-  font-size: 0.8em;
-  background-color:  mix($accent-color, $page-color, 20%);
-  color: $text-color;
-  padding-top: 4px;
-  padding-bottom: 4px;
-  padding-left: 6px;
-  padding-right: 6px;
-  white-space: nowrap;
-}
-
-.date {
-  font-size: 0.8em;
-  font-style: italic;
-}
-
-main {
-  margin-top: 4em;
-}
-
-pre {
-  margin-top: 2em;
-  margin-bottom: 2em;
-  padding-top: 1em;
-  padding-bottom: 1em;
-  padding-left: 2em;
-  padding-right: 2em;
-  line-height: 1.2;
-  background-color:  mix($accent-color, $page-color, 10%);
-  border: solid 1px mix($accent-color, $page-color, 30%);
-  overflow: auto;
-  code {
-    border-style: none;
-    padding-top: 0;
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 0;
+  nav {
+    margin-left: auto;
+    order: 2;
+    margin-top: 3em;
+    a {
+      border-bottom: 0 !important;
+      font-size: 1.4em;
+      padding: 16px 24px;
+      sub {
+        font-size: 60%;
+        color: $text-mid-color;
+      }
+    }
   }
 }
 
-
-footer {
-  margin-top: 6em;
-  padding-top: 4em;
-  padding-bottom: 6em;
-  border-top: solid 1px mix($text-color, $page-color, 10%);
-  font-size: 0.7em;
-  color: mix($text-color, $page-color, 40%);
-
-  a:link,
-  a:visited {
-    color: mix($text-color, $page-color, 70%);
-    border-bottom: solid 1px mix($accent-color, $page-color, 70%);
+.intro {
+  margin: 12em 0 0;
+  h1 {
+    font-weight: 700;
   }
-  a:hover,
-  a:focus {
-    color: $accent-color;
-    border-bottom: solid 1px $text-color;
+}
+.card {
+	position: relative;
+	background: white;
+	padding: 24px;
+	border-radius: 6px;
+	cursor: pointer;
+	&:before {
+		 	z-index: -1;
+			position: absolute;
+			content: "";
+			bottom: 15px;
+			left: 10%;
+			width: 80%;
+			top: 98%;
+			box-shadow: 0 0 4px 3px rgba(0, 0, 0, 0.1);
+	}
+	&:after {
+			z-index: -1;
+			position: absolute;
+			content: "";
+			bottom: 15px;
+			left: 5%;
+			width: 90%;
+			top: 99%;
+			box-shadow: 0 0 34px 5px rgba(0, 0, 0, 0.15);
+	}
+}
+
+.feed {
+  position: relative;
+  margin: 4em 0 0;
+}
+.feed-notes, .feed-work {
+  padding-right: 32px;
+  h4 {
+    position: absolute;
+    right: 0;
+    transform-origin: right center;
+    transform: rotate(-90deg);
+  }
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    li {
+      margin-bottom: 24px;
+      a {}
+    }
   }
 }

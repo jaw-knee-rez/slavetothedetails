@@ -20,7 +20,6 @@ module.exports = function(config) {
   // minify the html output
   config.addTransform("htmlmin", require("./src/utils/minify-html.js"));
 
-
   // pass some assets right through
   config.addPassthroughCopy("./src/site/images");
 

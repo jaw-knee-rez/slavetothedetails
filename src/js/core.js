@@ -7,4 +7,3 @@ function btnHandler(selector, callback) {
     callback();
   }, false);
 }
-
