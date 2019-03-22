@@ -11,25 +11,7 @@ title_meta: UX strategy & product design
 
 # John Resman
 ## Product Designer
-[About](/about)
-
-</div>
-
-<div class="feed feed-notes">
-
-<h4 class="section_hdr">Latest notes</h4>
-
-<ul>
-  {%- for post in collections.post -%}
-    <li class="card"><a href="{{ post.url }}">{{ post.data.title }}<br/><time class="date" datetime="{{ date }}">{{ page.date | dateDisplay("LLL d, y") }}</time></a></li>
-  {%- endfor -%}
-</ul>
-
-</div>
-
-<div class="feed feed-work">
-
-<h4 class="section_hdr">Latest work</h4>
+Hey there, I'm currently experimenting with static site generators. I'm working through a new state of my site that includes blog posts. If you would like to get in touch, please hit me up on twitter, https://twitter.com/resman. 
 
 </div>
 </div>
