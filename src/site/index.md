@@ -11,7 +11,7 @@ title_meta: UX strategy & product design
 
 # John Resman
 ## Product Designer
-Hey there, I'm currently experimenting with static site generators. I'm working through a new state of my site that includes blog posts. If you would like to get in touch, please hit me up on twitter, https://twitter.com/resman. 
+Hey there, I'm currently experimenting with static site generators and working through a new state of my site that includes notes on design and ux, my lastest design systems work. If you would like to get in touch, please hit me up on twitter, https://twitter.com/resman.
 
 </div>
 </div>
