@@ -26,6 +26,6 @@ For the last 4 years, I've been working with companies small and large and I'm e
 
 <div class="content post-header">
 
-Thanks for you time!
+Thanks for your time!
 
 </div>
