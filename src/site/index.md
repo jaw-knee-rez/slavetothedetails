@@ -10,7 +10,7 @@ title_meta: UX strategy & product design
 <div class="intro">
 
 # Hi, I'm John.
-## 🏃🏻‍ Short feedback loops & 👨🏻‍🔬 prototyping are my thing
+## All I want to do is make things and think about them
 I'm currently experimenting with static site generators and working through a new state of my site that includes notes on design and ux, as well as my latest design work. If you would like to get in touch, please hit me up on twitter, <a href="https://twitter.com/resman">@resman</a>.
 
 </div>
