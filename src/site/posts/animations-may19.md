@@ -15,7 +15,7 @@ title: UI Animations - May 2019
 <br/>
 
 <video autoplay loop muted width="100%">
-    <source src="/media/animations/card-scroll1.mp4" type="video/mp4">
+    <source src="/media/animations/card-scroll3.mp4" type="video/mp4">
     Sorry, your browser doesn't support embedded videos.
 </video>
 
@@ -73,19 +73,6 @@ title: UI Animations - May 2019
 <br/>
 <br/>
 
-### Card Scroll Three
-
-<br/>
-
-<video autoplay loop muted width="100%">
-    <source src="/media/animations/card-scroll3.mp4" type="video/mp4">
-    Sorry, your browser doesn't support embedded videos.
-</video>
-
-<br/>
-<br/>
-<br/>
-
 ### Paging Scroll Concept
 
 <br/>
@@ -94,5 +81,20 @@ title: UI Animations - May 2019
     <source src="/media/animations/paging-scroll1.mp4" type="video/mp4">
     Sorry, your browser doesn't support embedded videos.
 </video>
+
+<br/>
+<br/>
+<br/>
+
+### Card Scroll Three
+
+<br/>
+
+<video autoplay loop muted width="100%">
+    <source src="/media/animations/card-scroll1.mp4" type="video/mp4">
+    Sorry, your browser doesn't support embedded videos.
+</video>
+
+
 
 </div>
