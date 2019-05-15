@@ -14,7 +14,7 @@ title: UI Animations - May 2019
 
 <br/>
 
-<video autoplay loop width="100%">
+<video autoplay loop muted width="100%">
     <source src="/media/animations/card-scroll1.mp4" type="video/mp4">
     Sorry, your browser doesn't support embedded videos.
 </video>
@@ -25,7 +25,7 @@ title: UI Animations - May 2019
 
 ### Tab Bar Interaction
 
-<video autoplay loop width="100%">
+<video autoplay loop muted width="100%">
     <source src="/media/animations/tab-bar1.mp4" type="video/mp4">
     Sorry, your browser doesn't support embedded videos.
 </video>
@@ -38,7 +38,7 @@ title: UI Animations - May 2019
 
 <br/>
 
-<video autoplay loop width="100%">
+<video autoplay loop muted width="100%">
     <source src="/media/animations/card-scroll2.mp4" type="video/mp4">
     Sorry, your browser doesn't support embedded videos.
 </video>
@@ -51,7 +51,7 @@ title: UI Animations - May 2019
 
 <br/>
 
-<video autoplay loop width="100%">
+<video autoplay loop muted width="100%">
     <source src="/media/animations/record-player.mp4" type="video/mp4">
     Sorry, your browser doesn't support embedded videos.
 </video>
@@ -64,7 +64,7 @@ title: UI Animations - May 2019
 
 <br/>
 
-<video autoplay loop width="100%">
+<video autoplay loop muted width="100%">
     <source src="/media/animations/wood-loader.mp4" type="video/mp4">
     Sorry, your browser doesn't support embedded videos.
 </video>
@@ -77,7 +77,7 @@ title: UI Animations - May 2019
 
 <br/>
 
-<video autoplay loop width="100%">
+<video autoplay loop muted width="100%">
     <source src="/media/animations/card-scroll3.mp4" type="video/mp4">
     Sorry, your browser doesn't support embedded videos.
 </video>
@@ -90,7 +90,7 @@ title: UI Animations - May 2019
 
 <br/>
 
-<video autoplay loop width="100%">
+<video autoplay loop muted width="100%">
     <source src="/media/animations/paging-scroll1.mp4" type="video/mp4">
     Sorry, your browser doesn't support embedded videos.
 </video>
