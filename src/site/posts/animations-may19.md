@@ -73,6 +73,19 @@ title: UI Animations - May 2019
 <br/>
 <br/>
 
+### Loading Beam
+
+<br/>
+
+<video autoplay loop muted width="100%">
+    <source src="/media/animations/loading-beam.mov" type="video/mp4">
+    Sorry, your browser doesn't support embedded videos.
+</video>
+
+<br/>
+<br/>
+<br/>
+
 ### Paging Scroll Concept
 
 <br/>
