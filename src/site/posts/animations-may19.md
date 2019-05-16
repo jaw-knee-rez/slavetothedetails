@@ -23,6 +23,19 @@ title: UI Animations - May 2019
 <br/>
 <br/>
 
+### Loading Beam
+
+<br/>
+
+<video autoplay loop muted width="100%">
+    <source src="/media/animations/loading-beam.mov" type="video/mp4">
+    Sorry, your browser doesn't support embedded videos.
+</video>
+
+<br/>
+<br/>
+<br/>
+
 ### Tab Bar Interaction
 
 <video autoplay loop muted width="100%">
@@ -39,7 +52,7 @@ title: UI Animations - May 2019
 <br/>
 
 <video autoplay loop muted width="100%">
-    <source src="/media/animations/card-scroll2.mp4" type="video/mp4">
+    <source src="/media/animations/card-scroll2.mov" type="video/mp4">
     Sorry, your browser doesn't support embedded videos.
 </video>
 
@@ -73,19 +86,6 @@ title: UI Animations - May 2019
 <br/>
 <br/>
 
-### Loading Beam
-
-<br/>
-
-<video autoplay loop muted width="100%">
-    <source src="/media/animations/loading-beam.mov" type="video/mp4">
-    Sorry, your browser doesn't support embedded videos.
-</video>
-
-<br/>
-<br/>
-<br/>
-
 ### Paging Scroll Concept
 
 <br/>
@@ -104,7 +104,7 @@ title: UI Animations - May 2019
 <br/>
 
 <video autoplay loop muted width="100%">
-    <source src="/media/animations/card-scroll1.mp4" type="video/mp4">
+    <source src="/media/animations/card-scroll1.mov" type="video/mp4">
     Sorry, your browser doesn't support embedded videos.
 </video>
 
